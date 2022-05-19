@@ -28,6 +28,16 @@ body{
     font-weight: bold;
     border-bottom: 2px solid var(--Secondary-dark);
 }
+.dropdown-menu{
+    background-color: var(--Secondary);
+}
+.dropdown-item{
+    color: var(--Danger-extra-light);
+}
+.dropdown-item:hover{
+    background-color: var(--Danger-extra-light);
+    color: var(--Secondary);
+}
 .hero{
     min-height: 70vh;
     background: var(--Primary-gradient);
